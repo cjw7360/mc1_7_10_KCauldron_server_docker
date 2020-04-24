@@ -31,8 +31,10 @@ docker attach --sig-proxy=false docker_name
 ```
 docker logs -f docker_name
 ```
+
 4. 其他
 主机内存不够设置的JAVA内存值时，若实际使用内存超过物理内存上限会导致服务端不断重启。MOD冲突等可能需要根据启动时输出日志添加启动参数到`JAVA_OPTS`环境变量。
-5.声明
+
+5. 声明
 该镜像不用于商业用途，产生的一切后果本人概不负责，若有侵权请联系。
 
