@@ -14,4 +14,4 @@ docker run -id \
     -v /path/to/mc_resources/banned-ips.json:/mc_server/banned-ips.json \
     -v /path/to/mc_resources/banned-players.json:/mc_server/banned-players.json \
     --name mc_server \
-    mc_server_1_7_10:openjdk8
+    clemon1015/mc_server_1_7_10:openjdk8
